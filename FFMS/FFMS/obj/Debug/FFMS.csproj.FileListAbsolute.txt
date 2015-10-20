@@ -1,0 +1,16 @@
+G:\vs2012\FFMS\FFMS\bin\Debug\FFMS.exe.config
+G:\vs2012\FFMS\FFMS\bin\Debug\FFMS.exe
+G:\vs2012\FFMS\FFMS\bin\Debug\FFMS.pdb
+G:\vs2012\FFMS\FFMS\obj\Debug\FFMS.csprojResolveAssemblyReference.cache
+G:\vs2012\FFMS\FFMS\obj\Debug\App.g.cs
+G:\vs2012\FFMS\FFMS\obj\Debug\FFMS_MarkupCompile.cache
+G:\vs2012\FFMS\FFMS\obj\Debug\FFMS.g.resources
+G:\vs2012\FFMS\FFMS\obj\Debug\FFMS.Properties.Resources.resources
+G:\vs2012\FFMS\FFMS\obj\Debug\FFMS.csproj.GenerateResource.Cache
+G:\vs2012\FFMS\FFMS\obj\Debug\FFMS.exe
+G:\vs2012\FFMS\FFMS\obj\Debug\FFMS.pdb
+G:\vs2012\FFMS\FFMS\obj\Debug\Login.baml
+G:\vs2012\FFMS\FFMS\obj\Debug\Login.g.cs
+C:\Users\kn\Desktop\家庭财务管理系统\FFMS\FFMS\bin\Debug\FFMS.exe.config
+C:\Users\kn\Desktop\家庭财务管理系统\FFMS\FFMS\obj\Debug\FFMS.exe
+C:\Users\kn\Desktop\家庭财务管理系统\FFMS\FFMS\obj\Debug\FFMS.pdb
