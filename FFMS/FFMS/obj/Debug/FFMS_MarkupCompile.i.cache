@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\kn\Desktop\家庭财务管理系统\FFMS\FFMS\obj\Debug\
+G:\repositories\FFMS\FFMS\FFMS\obj\Debug\
 FFMS
 none
 false
 DEBUG;TRACE
-C:\Users\kn\Desktop\家庭财务管理系统\FFMS\FFMS\App.xaml
-1-1570634313
+G:\repositories\FFMS\FFMS\FFMS\App.xaml
+14-1513723900
 
-9-1883195371
-12-1401562060
-Login.xaml;
+19-1781928558
+151326122767
+AlterInfo.xaml;Assets.xaml;Calculator.xaml;DeleteMember.xaml;FindPassword.xaml;Information.xaml;Login.xaml;Main.xaml;MonNote.xaml;NewData.xaml;Register.xaml;Styles\TabControlStyles.xaml;Styles\MenuStyles.xaml;Themes\Generic.xaml;
 
 False
 

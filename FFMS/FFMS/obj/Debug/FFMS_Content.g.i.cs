@@ -8,6 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("source/2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("source/confirm_delete_p.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("source/confirm_p.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("source/delete_p.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("source/new_p.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("source/search_p.png")]
 
 

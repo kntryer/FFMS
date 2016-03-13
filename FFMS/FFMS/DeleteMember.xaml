@@ -1,0 +1,16 @@
+﻿<Window x:Class="FFMS.DeleteMember"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="删除成员" Height="300" Width="250" WindowStartupLocation="CenterScreen" Icon="Source/1.png" ResizeMode="NoResize" Background="#FFEBEBEB">
+    <DockPanel>
+        <Button Content="删除" Height="23" Name="deleteMemberButton" Width="75" DockPanel.Dock="Bottom" Click="deleteMemberButton_Click" />
+        <ListView Name="MemberListView" FontSize="14">
+            <ListView.View>
+                <GridView AllowsColumnReorder="True">
+                    <GridViewColumn Header="成员名称" DisplayMemberBinding="{Binding Path=name}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </DockPanel>
+</Window>
+

@@ -1,18 +1,22 @@
 ﻿<Window x:Class="FFMS.Login"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="家庭财务管理系统" Height="300" Width="450" Icon="Source/1.png">
-    <Grid>
+        Title="家庭财务管理系统" Height="300" Width="450" Icon="Source/1.png" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush Stretch="None"/>
+    </Window.Background>
+    <Grid OpacityMask="Black">
         <Grid.Background>
-            <ImageBrush ImageSource="Source\2.png"/>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FFBDB7B7" Offset="1"/>
+            </LinearGradientBrush>
         </Grid.Background>
         <Grid.RowDefinitions>
-            <RowDefinition Height="200">
-                
-            </RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="200"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
-        <StackPanel Grid.Row ="0" Height="200" Grid.ColumnSpan="2">
+        <StackPanel Grid.Row ="0" Margin="0,0,0,70" Grid.RowSpan="2">
             <Grid Margin="80" Height="100">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="100"></ColumnDefinition>
@@ -26,12 +30,12 @@
                     <RowDefinition Height="23"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Image Grid.RowSpan="4" Source="Source\1.png" RenderTransformOrigin="0.505,0.535" Margin="0,7,0,7"/>
-                <ComboBox Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" IsEditable="True" Name="txtUserName" VerticalContentAlignment="Center" VerticalAlignment="Top" Height="25" Margin="10,0,0,0" Background="White"/>
-                <PasswordBox Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2" Name="txtPwd" VerticalContentAlignment="Center" VerticalAlignment="Top" Height="25" Margin="10,0,0,0" FontSize="12" Grid.RowSpan="2"/>
-                <Label Grid.Column="1" Grid.Row="3" VerticalAlignment="Bottom" Margin="10,0,0,0" Name="ckbPwd" Height="23" >注册</Label>
-                <Label Grid.Column="2" Grid.Row="3" VerticalAlignment="Bottom" Margin="10,0,0,0" Name="ckbUser" Height="23">找回密码</Label>
+                <ComboBox Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" IsEditable="True" Name="txtMemberName" VerticalContentAlignment="Center" VerticalAlignment="Top" Height="25" Margin="10,0,0,0" Background="White" ToolTip="请输入家庭成员名称！"/>
+                <PasswordBox Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2" Name="txtPassWord" VerticalContentAlignment="Center" VerticalAlignment="Top" Height="25" Margin="10,0,0,0" FontSize="12" Grid.RowSpan="2" ToolTip="请输入密码！"/>
+                <Label Grid.Column="1" Grid.Row="3" VerticalAlignment="Bottom" Margin="10,0,0,0" Name="register" MouseDown="Label_Click" MouseEnter="Mouse_Enter" MouseLeave="Mouse_Leave">注册</Label>
+                <Label Grid.Column="2" Grid.Row="3" VerticalAlignment="Bottom" Margin="10,0,0,0" Name="findpwd" MouseDown="Label_Click" MouseEnter="Mouse_Enter" MouseLeave="Mouse_Leave">找回密码</Label>
             </Grid>
         </StackPanel>
-        <Button Grid.Row="1" Width="180" Height="35" HorizontalAlignment="Center" Background="White" Name="login" Content="登       录" FontSize="14" Grid.ColumnSpan="2" Margin="131,14,131,15"/>
+        <Button Grid.Row="1" Width="180" Height="35" VerticalAlignment="Top" HorizontalAlignment="Stretch" Background="White" Name="login" Content="登       录" FontSize="14" Margin="130,0,130,0" Click="login_Click" MouseEnter="Mouse_Enter" MouseLeave="Mouse_Leave"/>
     </Grid>
 </Window>
